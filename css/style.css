@@ -1,0 +1,133 @@
+body {
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+header {
+  height: 101px;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  position: relative;
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.left-nav nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.left-nav nav ul li {
+  text-transform: uppercase;
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  cursor: pointer;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #045762;
+}
+
+.left-nav nav ul li:hover {
+  color: #ff5757;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.find-store {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  color: #045762;
+  font-size: 16px;
+}
+
+.find-store i {
+  padding-right: 8px;
+  font-size: 24px;
+  color: #045762;
+}
+
+.find-store:hover {
+  color: #ff5757;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.order,
+.contact-us {
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 16px;
+  color: #045762;
+}
+
+.order {
+  margin-right: 16px;
+}
+
+.order:hover {
+  background-color: #ff5757;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.contact-us {
+  background-color: #045762;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.contact-us:hover {
+  background-color: #ff5757;
+  border-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
